@@ -74,7 +74,7 @@ body header {
     width: 100%;
 }
 
-image#logoImage {
+img#logoImage {
     display: block;
     width: 100%;
     max-width: 600px;
@@ -277,11 +277,18 @@ nav#bottom ul {
         max-width: 100%;
     }
 
+    nav.top ul li:nth-of-type(6) {
+        background-image: url(images/cw_image06.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        max-width: 100%;
+    }
+
     p#links {
         display: flex;
         flex-wrap: nowrap;
         flex-direction: row;
-        align-content: space-around;
+        justify-content: space-around;
     }
 
     p#links a {
